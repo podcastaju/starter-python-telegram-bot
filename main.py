@@ -14,8 +14,8 @@ app = FastAPI()
 load_dotenv()
 
 # Read the variable from the environment (or .env file)
-bot_token = os.getenv('BOT_TOKEN')
-secret_token = os.getenv("SECRET_TOKEN")
+bot_token = "6150609043:AAG-XHC9FhHNREIib4yRBStPI5-2M9MDtJ0"
+secret_token = "ajharul"
 # webhook_url = os.getenv('CYCLIC_URL', 'http://localhost:8181') + "/webhook/"
 
 bot = Bot(token=bot_token)
